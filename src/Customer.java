@@ -8,4 +8,8 @@ public class Customer {
         this.age = age;
         this.customerID = customerID;
     }
+
+    public String getName(){
+        return name;
+    }
 }

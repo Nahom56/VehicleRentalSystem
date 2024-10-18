@@ -1,4 +1,4 @@
-abstract class Motorcycle implements Vehicle{
+abstract class Motorcycle {
     String licensceplate;
     String vehicletype;
     double rentalPrice;

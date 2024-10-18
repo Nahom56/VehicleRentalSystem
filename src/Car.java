@@ -30,6 +30,7 @@ abstract class Car {
     }
 
     public void rentVehicle(Customer customer) {
-
+        this.rentedPerson = customer;
+        System.out.println(customer.getName() + "has rented");
     }
 }
